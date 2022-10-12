@@ -1,6 +1,6 @@
 window.onload = function() {
     // start
-        let starterDiv = document.getElendById('starter-div');
+        let starterDiv = document.getElementById('starter-div');
         let firstHeading = document.createElement('h2');
 
         firstHeading.innerText = 'This is a H2 created with JS';
