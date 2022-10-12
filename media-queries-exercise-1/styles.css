@@ -1,31 +1,52 @@
-.box {
+.box {margin: 5px;
 }
 
 .green-box {
+    height: 100px;
+    background-color: #00bb00;
 }
 
 .blue-box {
+    height: 200px;
+    background-color: #0099ff;
 }
 
 .grey-box {
+    height: 75px;
+    background-color: #c9c9c9;
 }
 
 /*** Media Queries Below ***/
 
 @media (min-width: 600px) {
     .green-box {
+        height: 150px;
     }
     .blue-box {
+        height: 200px;
     }
     .grey-box {
+        height: 75px;
+        background-color: #c9c9c9;
+        display: inline-block;
+        width: calc(100% / 2 - 10px);
     }
+
+
 }
 
 @media (min-width: 900px) {
     .green-box {
+        height: 300px;
     }
     .blue-box {
+        width: calc(100% / 3 - 10px);
+        display: inline-block;
+        height: 300px;
     }
     .grey-box {
+        width: calc(100% / 4 - 10px);
+        height: 200px;
+        display: inline-block
     }
 }

@@ -1,0 +1,99 @@
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body {
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+/* This is for Nav Bar */
+
+header {
+    height: 75px;
+    background-color: white;
+    
+}
+
+nav {
+    float: right;
+}
+
+a {
+    border-right: 1px solid rgb(177, 174, 175);
+    color: black;
+    text-align: right;
+    padding: 10px;
+}
+
+#img-search {
+    float: right;
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+.selected {
+    color: #D6456E;
+}
+
+/* This is for She Codes page title */
+
+h1 {
+    
+    text-align: left;
+    color: #ba1266;
+    font-size: 40px;
+    display: inline;
+}
+
+/* This is for Cards Heading */
+
+#top-text {    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px;
+}
+
+
+/* This is for the individual cards */
+
+.card {
+    background-color: white;
+    border: 2px solid rgb(184, 184, 184);
+    width: 310px;
+    margin: 20px
+}
+
+.card {
+    display: inline-block;
+    height: 380px;
+    padding: 15px;
+    vertical-align:middle;
+}
+
+.card img {
+    object-fit: center;
+    height: 200px;
+    width: 100%;
+    padding:  5px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+
+h3 {
+    color: #D6456E;
+}
+
+.grey-text {
+    color: rgb(192, 6, 6);
+}
+
+/* This is for the Footer */
+
+footer {
+text-align: center;
+}

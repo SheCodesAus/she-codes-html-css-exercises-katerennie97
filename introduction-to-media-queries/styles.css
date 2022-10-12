@@ -6,7 +6,7 @@
 body {
     background-color: #d8bfd8;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 div {
@@ -30,3 +30,34 @@ div {
 }
 
 /*** Your code here ***/
+
+@media (max-width: 500px) {
+
+    body {
+        font-size: 2rem;
+    }
+    div {
+        display: inline-block;
+        width: 44%;
+    }
+    #div-1 , #div-2 {
+        background-color: #9370db;
+    }
+    #div-3, #div-4 {
+        background-color: #6495ed;
+    }
+}
+
+@media (max-width: 900px) {
+
+    body {
+        font-size: 3rem;
+    }
+    div {
+        display: inline-block;
+        width: 20%;
+    }
+    #div-1 , #div-2, #div-3, #div-4 {
+        background-color: #9370db;
+    }
+}
